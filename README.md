@@ -1,2 +1,2 @@
-## TO Run:
+## To Run:
 php command.php
