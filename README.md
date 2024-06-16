@@ -1,2 +1,1 @@
-# Notepad
- CLI Notepad in php
+php command.php
