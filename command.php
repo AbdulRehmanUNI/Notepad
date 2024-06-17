@@ -26,13 +26,8 @@ class NotepadCLI {
             echo "Memory used: {$memoryUsage} KB\n";
 
             // Perform garbage collection after each command
-            $this->garbageCollect();
+            gc_collect_cycles();
         }
-    }
-
-    private function garbageCollect() {
-        // Perform garbage collection to free up memory
-        gc_collect_cycles();
     }
 
     private function processInput($input) {
